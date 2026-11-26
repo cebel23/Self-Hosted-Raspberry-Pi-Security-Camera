@@ -1,0 +1,28 @@
+# Motion configuration and credentials
+motion.conf
+motion.conf.*
+!motion.conf.example
+
+# Credentials and secrets
+.env
+*.key
+*.pem
+*.password
+
+# Camera recordings and captured images
+*.mkv
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
